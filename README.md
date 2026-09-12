@@ -677,3 +677,18 @@ Terraform enables the AWS infrastructure to be recreated consistently without ma
 
 ```
 ```
+
+## Deployment Configuration Update
+
+After rebuilding the AWS infrastructure using Terraform, the deployment-specific configuration values were updated to match the newly created AWS resources.
+
+The following configuration values were updated:
+
+- Updated the **API Gateway URL** in the frontend.
+- Updated the **Amazon Cognito User Pool ID** in the frontend.
+- Updated the **Amazon Cognito Client ID** in the frontend.
+- Updated the **CloudFront URL** in the backend CORS configuration.
+- Rebuilt the backend Lambda package after the configuration changes.
+- Rebuilt and redeployed the frontend with the updated API and Cognito configuration.
+
+These values are deployment-specific and may change if the AWS infrastructure is destroyed and recreated using Terraform.
