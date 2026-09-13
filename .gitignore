@@ -24,3 +24,4 @@ Thumbs.db
 .idea/
 
 *.log
+response.json
