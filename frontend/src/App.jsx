@@ -9,7 +9,7 @@ import {
 } from "./cognito";
 
 const API_URL =
-  "https://whi8zhep50.execute-api.ap-south-1.amazonaws.com";
+  "https://yxdcyk8nfc.execute-api.ap-south-1.amazonaws.com";
 
 
 function App() {

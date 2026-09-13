@@ -7,10 +7,9 @@ const app = express();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://d2aztnqgrfx72l.cloudfront.net"
+        "https://d39l33auoopriu.cloudfront.net"
     ]
 }));
-
 app.use(express.json());
 
 app.get("/", (req, res) => {
